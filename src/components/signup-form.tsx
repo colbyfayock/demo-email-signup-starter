@@ -2,9 +2,9 @@
 
 import { useState } from 'react';
 
-import { buttonVariants } from "@/components/ui/button"
-import { Label } from "@/components/ui/label"
-import { Input } from "@/components/ui/input"
+import { buttonVariants } from "@/src/components/ui/button"
+import { Label } from "@/src/components/ui/label"
+import { Input } from "@/src/components/ui/input"
 
 const SignupForm = () => {
   const [state, setState] = useState<string>();

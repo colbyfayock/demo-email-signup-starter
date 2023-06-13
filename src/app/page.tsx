@@ -1,4 +1,4 @@
-import SignupForm from '@/components/signup-form';
+import SignupForm from '@/src/components/signup-form';
 
 export default function IndexPage() {
   return (
