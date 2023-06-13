@@ -9,7 +9,7 @@ import { Input } from "@/src/components/ui/input"
 const SignupForm = () => {
   const [state, setState] = useState<string>();
 
-  async function handleOnSubmit(e) {
+  async function handleOnSubmit(e: React.SyntheticEvent) {
     e.preventDefault();
     setState('loading');
     setTimeout(() => {
